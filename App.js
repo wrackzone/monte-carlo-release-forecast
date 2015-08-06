@@ -43,7 +43,7 @@ Ext.define('CustomApp', {
 
     scopeType: 'release',
 
-    samples : 1000,
+    samples : 10000,
     projectionSeries : 'PointsAccepted',
     scopeSeries : 'PointsScope',
 

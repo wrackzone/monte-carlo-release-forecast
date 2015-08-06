@@ -54,44 +54,17 @@ Ext.define('CustomApp', {
 
     scopeType: 'release',
 
-    samples : 1000,
+    samples : 10000,
     projectionSeries : 'PointsAccepted',
     scopeSeries : 'PointsScope',
 
     settingsScope: 'project',
     config: {
       defaultSettings: {
-        // includeBefore: 0,
-        // includeAfter: 0,
-        // costPerPoint: 200,
-        // truncateStringLength: 20,
-        // rotateLabels: false
       }
     },
 
     featureFetchFields : ["_ValidFrom","_ValidTo","ObjectID","FormattedID","AcceptedLeafStoryCount","AcceptedLeafStoryPlanEstimateTotal","LeafStoryCount","LeafStoryPlanEstimateTotal"],
-
-  // 	launch : function() {
-
-  //   	var me = this;
-
-  //       var timeBox = {
-  //           ReleaseStartDate: "2015-04-13T06:00:00.000Z",
-  //           ReleaseDate : "2015-07-20T05:59:59.000Z"
-  //       };
-
-  //   	// for testing
-		// me._fetchData("PortfolioItem/Feature",["ObjectID"],{property:"Release.Name",operator:"=",value:"2015 Q2"}).then({
-		// 	scope : me,
-		// 	success : function(records) {
-		// 		console.log("records",records);
-		// 		me._loadSnapshots(records,timeBox);
-		// 	},
-  //           failure : function(error) {
-  //               console.log("error",error);
-  //           }
-		// });
-  //   },
 
     _loadSnapshots : function ( features, timeBox ) {
 
