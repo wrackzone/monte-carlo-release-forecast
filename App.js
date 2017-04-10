@@ -85,7 +85,7 @@ Ext.define('CustomApp', {
 
     	var me = this;
 
-    	var lumenize = window.parent.Rally.data.lookback.Lumenize;
+    	var lumenize = window.Rally.data.lookback.Lumenize;
     	console.log("lumenize",lumenize);
 
     	var myCalc = Ext.create("ForecastCalculator", {
