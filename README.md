@@ -12,3 +12,5 @@ You can find the documentation on our help [site.](https://help.rallydev.com/app
 =======
 # monte-carlo-release-forecast
 EXPERIMENT : Using Monte Carlo simulation to predict release delivery
+
+![screenshot](https://github.com/wrackzone/monte-carlo-release-forecast/blob/master/screenshot.png?raw=true)
